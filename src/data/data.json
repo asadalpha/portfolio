@@ -1,0 +1,43 @@
+{
+    "profile": {
+        "name": "Asad Jawed",
+        "email": "asadjawed.work@gmail.com",
+        "website": "https://asadjawed.tech"
+    },
+    "projects": [
+        {
+            "id": "1",
+            "title": "Res-Q App",
+            "description": "ResQ Connect is a mobile application designed to connect agencies and NGOs to help people in dire need who are struck by calamity and disaster. Built with Flutter, ResQ Connect offers a seamless and efficient way to coordinate relief efforts and provide assistance quickly and effectively.",
+            "imageUrl": "/projects/project-resq.png",
+            "redirectedUrl": "https://github.com/asadalpha/Res-Q-Connect"
+        },
+        {
+            "id": "2",
+            "title": "Snippify",
+            "description": "An Snippet Website for for React and Flutter components made in Nextjs.",
+            "imageUrl": "/workinprogress.jpg",
+            "redirectedUrl": ""
+        }
+    ],
+    "experiences": [
+        {
+            "role": "Software Engineering Intern",
+            "company": "Oddmind Innovations",
+            "dates": "July 2025 - Present",
+            "description": "Creating Zariya AI , a platform for blue collar workers and employers to collaborate and make the hiring of workers easy"
+        },
+        {
+            "role": "Software Engineering Intern",
+            "company": "Eventory",
+            "dates": "July 2024 - Jan 2025",
+            "description": "Built responsive websites and collaborated with design teams for seamless UI integration."
+        },
+        {
+            "role": "App Developer Intern",
+            "company": "SpectoV",
+            "dates": "April 2024 - Sept 2024",
+            "description": "Assisted in wireframing and prototyping digital products for client projects."
+        }
+    ]
+}
