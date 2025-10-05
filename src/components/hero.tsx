@@ -64,18 +64,19 @@ export default function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative text-white min-h-screen flex items-center justify-start px-6  overflow-hidden"
+      className="relative text-white min-h-screen flex items-center justify-start px-6 overflow-hidden"
     >
       {/* Gradient Blob Background */}
       <span className="blob size-1/2 absolute top-20 right-0 blur-[100px]" />
 
       {/* Left aligned content */}
       <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col items-start text-left space-y-8 pl-6">
-        <h1 className="hero-title font-caveat text-gray-100 mb-4 text-3xl md:text-6xl xl:text-5xl font-bold">
-          <span >
-            Hi, I'm{" "}
-            <span className=" transition-colors duration-300 hover:text-violet-400
-">
+        <h1
+          className={`${caveat.className} hero-title text-gray-100 mb-4 text-3xl md:text-6xl xl:text-5xl font-bold`}
+        >
+          <span>
+            Hi, I&apos;m{" "}
+            <span className="transition-colors duration-300 hover:text-violet-400">
               Asad
             </span>
           </span>
@@ -86,13 +87,10 @@ export default function Hero() {
           that connect user needs and business goals.
         </p>
 
-
         <div className="hero-btn mt-8">
           <Button
             onClick={() =>
-              document
-                .getElementById("contact")
-                ?.scrollIntoView({ behavior: "smooth" })
+              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
             }
             label="Connect"
           />

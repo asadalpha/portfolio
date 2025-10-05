@@ -24,7 +24,7 @@ export default function ReachOutSection() {
           WebkitTextFillColor: "transparent",
         }}
       >
-        [ LET'S TALK ]
+        [ LET&apos;S TALK ]
       </h2>
 
       {/* Description */}
@@ -41,7 +41,7 @@ export default function ReachOutSection() {
           rel="noopener noreferrer"
           className="inline-block bg-white text-black font-semibold py-3 px-6 rounded-xl hover:bg-gray-200 transition-colors shadow-md"
         >
-          Schedule a Call 
+          Schedule a Call
         </a>
       </div>
     </section>
